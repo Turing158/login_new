@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font.css">
+    <title>Select</title>
+    <style>
+        *{
+            transition: all 500ms;
+            user-select: none;
+            font-weight: bold;
+            font-family: cool_font;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: gray;
+        }
+        button{
+            font-size: 25px;
+            border-radius: 5px;
+            margin: 0 20px;
+            background-color: rgb(223, 251, 252);
+        }
+        button:hover{
+            background-color: rgb(167, 211, 211);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="window.location.href='/login.html'">登录Login</button>
+    <button onclick="window.location.href='/reg.html'">注册Reg</button>
+    <button onclick="window.location.href='/forget.html'">忘记密码forget</button>
+    <button onclick="window.location.href='/reset.html'">重置密码reset</button>
+    <button onclick="window.location.href='/reg_emailCode.html'">邮箱验证[注册]</button>
+    <button onclick="window.location.href='/forget_emailCode.html'">邮箱验证[忘记密码]</button>
+</body>
+</html>
